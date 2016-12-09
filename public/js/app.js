@@ -71,7 +71,7 @@ class App{
     ];
 
 
-    this.carusel = [
+    this.carusel = [  
     {
       "img":"img/LM.jpg",
 
@@ -133,14 +133,29 @@ class App{
 
 updateMusicNow(id){
 id = id+1;
+  console.log("hi");
+   let title = document.getElementById("musicTitle");
+   let album = document.getElementById("musicAlbum");
+   let genre = document.getElementById("musicGenre");
+   let artist = document.getElementById("musicArtist");
+   let image = document.getElementById("musicImage");
+
+
+
+
     let musicDummy = {
+
       "id" :  id, 
-      "title": $('musicTitle').val(),
-      "album": $('musicAlbum').val(),
-      "genre": $('musicGenre').val(),
-      "artist": $('musicArtist').val(),
-      "image": $('musicImage').val()   
+      "title": title.value, 
+      "album": album.value,  
+      "genre": genre.value, 
+      "artist": artist.value,  
+      "image": image.value,  
     };
+    
+    console.log(musicDummy);
+
+
 
     let m = this.music;
     for(let i=0;i<m.length;i++){
@@ -149,7 +164,7 @@ id = id+1;
         break;
       }
     }
-    this.viewMusic();
+    this.musicList();
   }
   deleteMusic(key){
     let m = this.music;
@@ -382,6 +397,7 @@ class Component extends App{
     <div class="card horizontal small">
     <div class="card-image">
     <img src="${m.image}">
+
     </div>
     <div class="card-stacked">
     <div class="card-content">
@@ -544,7 +560,7 @@ class Component extends App{
     $('#recentActivity').hide();  
     $('#Home').hide();   
     $('#landingpage').hide();    
-  }
+  } 
 
 updateMusic(id){
 
