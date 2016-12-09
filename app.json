@@ -1,6 +1,6 @@
 {
-	"name": "decodeapp",
-	"description": "decode App",
-	"repository": "https://github.com/username/reponame.git",
-	"image": "heroku/nodejs"
-}
+  "name": "Node.js Getting Started",
+  "description": "A sample app",
+  "repository": "https://github.com/rrchatto/decodeapp_heroku.git",
+  "image": "heroku/nodejs"
+}  
