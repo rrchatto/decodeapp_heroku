@@ -248,7 +248,8 @@ class Component extends App{
     <ul>
     <li><a class="grey-text text-lighten-3" href="#!"onclick="component.Home()">Home</li>
     <li><a class="grey-text text-lighten-3" href="#!"onclick="component.musicList()"">Music Layout</a></li>
-    <li><a class="grey-text text-lighten-3" href="#!"onclick="component.createMusic()">Create Music</li>      
+    <li><a class="grey-text text-lighten-3" href="#!"onclick="component.createMusic()">Create Music</li>
+<div class="fb-share-button" data-href="http://decodeapp-herokuchatto.herokuapp.com" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdecodeapp-herokuchatto.herokuapp.com%2Ffbpage%2Ffb.html&amp;src=sdkpreparse">Share on Facebook</a></div>
     </ul>
     </div>
     <p><a class="grey-text text-lighten-3" href="https://www.facebook.com/raven.chatto">
